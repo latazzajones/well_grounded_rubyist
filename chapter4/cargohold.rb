@@ -3,7 +3,7 @@ class Suitcase
 end
 
 class CargoHold
-  include  Stacklike
+  include Stacklike
 
   def load_and_report(obj)
     print "Loading object "
